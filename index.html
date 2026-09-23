@@ -293,10 +293,10 @@ function rankFor(correct,total=5){
   return rate>=.9?'S':rate>=.8?'A':rate>=.6?'B':'C';
 }
 
-const KEY='hiropon_ch5_save_v1';
+const KEY='hiropon_ch5_save_v2';
 const empty=()=>({schemaVersion:3,cleared:[],wrongIds:[],previousRuns:{},districtRecords:{},finalCleared:false,finalBest:0});
 function loadState(){
-  try{const value=JSON.parse(localStorage.getItem(KEY));return value&&[1,2].includes(value.schemaVersion)?{...empty(),...value,schemaVersion:2}:empty();}catch{return empty();}
+  try{const value=JSON.parse(localStorage.getItem(KEY));return value&&value.schemaVersion===3?{...empty(),...value}:empty();}catch{return empty();}
 }
 function saveState(state){localStorage.setItem(KEY,JSON.stringify(state));}
 function clearState(){localStorage.removeItem(KEY);}
