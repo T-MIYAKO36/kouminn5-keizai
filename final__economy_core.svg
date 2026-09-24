@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-labelledby="title desc">
+  <title id="title">経済循環コア</title>
+  <desc id="desc">市場、企業、金融、公共の四つの歯車を装着する最終復旧装置</desc>
+  <defs>
+    <radialGradient id="core" cx="50%" cy="42%" r="62%">
+      <stop offset="0" stop-color="#fff7cf"/>
+      <stop offset=".45" stop-color="#e4b13a"/>
+      <stop offset="1" stop-color="#845111"/>
+    </radialGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="8" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0 0l6 3-6 3z" fill="#f6ce5a"/>
+    </marker>
+  </defs>
+  <circle cx="400" cy="400" r="330" fill="#151b24" fill-opacity=".82" stroke="#6b461b" stroke-width="16"/>
+  <circle cx="400" cy="400" r="274" fill="none" stroke="#f6ce5a" stroke-width="12" stroke-dasharray="16 15" opacity=".65"/>
+  <g fill="none" stroke="#f6ce5a" stroke-width="18" stroke-linecap="round" marker-end="url(#arrow)" opacity=".88">
+    <path d="M470 135A278 278 0 0 1 665 330"/>
+    <path d="M665 470A278 278 0 0 1 470 665"/>
+    <path d="M330 665A278 278 0 0 1 135 470"/>
+    <path d="M135 330A278 278 0 0 1 330 135"/>
+  </g>
+  <g fill="#242a33" stroke="#e2ad3e" stroke-width="12">
+    <circle cx="400" cy="120" r="82"/>
+    <circle cx="680" cy="400" r="82"/>
+    <circle cx="400" cy="680" r="82"/>
+    <circle cx="120" cy="400" r="82"/>
+  </g>
+  <circle cx="400" cy="400" r="133" fill="url(#core)" stroke="#fff0aa" stroke-width="14" filter="url(#glow)"/>
+  <circle cx="400" cy="400" r="92" fill="#17202a" stroke="#6d4615" stroke-width="7"/>
+  <g fill="none" stroke="#fff1c5" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M358 350l42 49 42-49M400 399v60M365 414h70M365 438h70"/>
+  </g>
+</svg>
