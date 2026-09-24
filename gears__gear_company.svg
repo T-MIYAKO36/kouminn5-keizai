@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="企業の歯車">
+  <defs><radialGradient id="g" cx="35%" cy="30%"><stop stop-color="#458bd5"/><stop offset="1" stop-color="#123e85"/></radialGradient></defs>
+  <g fill="#d7a841" stroke="#6b4313" stroke-width="5">
+    <rect x="113" y="3" width="30" height="48" rx="7"/><rect x="113" y="205" width="30" height="48" rx="7"/><rect x="205" y="113" width="48" height="30" rx="7"/><rect x="3" y="113" width="48" height="30" rx="7"/>
+    <rect x="182" y="18" width="30" height="48" rx="7" transform="rotate(45 197 42)"/><rect x="44" y="190" width="30" height="48" rx="7" transform="rotate(45 59 214)"/><rect x="190" y="182" width="48" height="30" rx="7" transform="rotate(45 214 197)"/><rect x="18" y="44" width="48" height="30" rx="7" transform="rotate(45 42 59)"/>
+    <circle cx="128" cy="128" r="92" fill="url(#g)"/><circle cx="128" cy="128" r="70" fill="#123e85" stroke="#ffe0a0"/>
+  </g>
+  <g fill="#fff4d2" stroke="#fff4d2" stroke-linejoin="round">
+    <path d="M75 170V112l35 20v-20l34 20V86h23v84z" stroke-width="7"/>
+    <rect x="93" y="147" width="15" height="23" fill="#123e85" stroke="none"/><rect x="123" y="147" width="15" height="23" fill="#123e85" stroke="none"/><rect x="153" y="147" width="15" height="23" fill="#123e85" stroke="none"/>
+  </g>
+</svg>

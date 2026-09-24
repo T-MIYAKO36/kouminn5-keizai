@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="金融の歯車">
+  <defs><radialGradient id="g" cx="35%" cy="30%"><stop stop-color="#50b882"/><stop offset="1" stop-color="#17653d"/></radialGradient></defs>
+  <g fill="#d7a841" stroke="#6b4313" stroke-width="5">
+    <rect x="113" y="3" width="30" height="48" rx="7"/><rect x="113" y="205" width="30" height="48" rx="7"/><rect x="205" y="113" width="48" height="30" rx="7"/><rect x="3" y="113" width="48" height="30" rx="7"/>
+    <rect x="182" y="18" width="30" height="48" rx="7" transform="rotate(45 197 42)"/><rect x="44" y="190" width="30" height="48" rx="7" transform="rotate(45 59 214)"/><rect x="190" y="182" width="48" height="30" rx="7" transform="rotate(45 214 197)"/><rect x="18" y="44" width="48" height="30" rx="7" transform="rotate(45 42 59)"/>
+    <circle cx="128" cy="128" r="92" fill="url(#g)"/><circle cx="128" cy="128" r="70" fill="#17653d" stroke="#ffe0a0"/>
+  </g>
+  <g fill="none" stroke="#fff4d2" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M75 108l53-28 53 28H75zm12 7v45m27-45v45m28-45v45m27-45v45M74 169h108"/>
+    <path d="M88 190h80"/>
+  </g>
+</svg>
